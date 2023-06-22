@@ -8,7 +8,6 @@ const Stories = () => {
   if (isLoading) {
     return <div className='loading'></div>;
   }
-
   return (
     <section className='stories'>
       {hits.map((story) => {
